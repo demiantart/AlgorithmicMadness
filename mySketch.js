@@ -43,10 +43,10 @@ class Notification {
     rotate(this.angle);
     fill(255);
     rectMode(CENTER);
-    rect(0, 0, 200, 60, 10);
+    rect(0, 0, 500, 100, 30);
     fill(this.color);
     textSize(16);
-    textFont('Courier New', 20);
+    textFont('Helvetica', 30);
     textAlign(CENTER, CENTER);
     text("Look Here!", 0, 0);
     pop();
