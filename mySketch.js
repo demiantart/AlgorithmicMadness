@@ -10,7 +10,7 @@ function draw() {
   background(255, 0, 0, 50);
   
   // Add new notifications over time
-  if (frameCount % 10 == 0) {
+  if (frameCount % 30 == 0) {
     notifications.push(new Notification());
   }
   
