@@ -43,7 +43,7 @@ class Notification {
     rotate(this.angle);
     fill(255);
     rectMode(CENTER);
-    rect(0, 0, 500, 100, 30);
+    rect(0, 0, windowWidth, 100, 30);
     fill(this.color);
     textSize(16);
     textFont('Helvetica', 30);
