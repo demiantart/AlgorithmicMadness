@@ -42,6 +42,7 @@ class Notification {
     translate(this.x, this.y);
     rotate(this.angle);
     fill(255);
+    stroke(127, 0, 255);
     rectMode(CENTER);
     rect(0, 0, windowWidth, 100, 30);
     fill(this.color);
